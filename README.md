@@ -1,8 +1,7 @@
 # Amazon_Vine_Analysis
 
 ## Overview
-In this project, we have access to approximately 50 datasets. Each one contains reviews of a specific product, from clothing apparel to wireless products.  We picked Gift Cards datasets. 
-We used PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. And then used PySpark again to determine if there is any bias toward favorable reviews from Vine members in our dataset. 
+PySpark was used to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin, checking for bias toward favorable review from Vine members.
 
 
 ## Results
@@ -59,11 +58,7 @@ We used PySpark to perform the ETL process to extract the dataset, transform the
 ## Results
 
 ### State if there is any positivity bias for reviews in the Vine program
-There are zero paid 5 start reviews. Our dataset is for gift cards and it seems like companies don't pay for gift card reviews. It's hard to detremine bias as there is not enough data to conclude paid reviews. Unpaid reviews has 87% positive reviews. So even unpaid reviews are also very positive.
-
-We could perform the similar analysis for next best rating - (rating 4) and see if there is any bias. 
-
-NOTE : it's very strange situation where there is no paid reviews which makes it harder to do any meaningful compariosn between paid vs unpiad. 
+There are no paid reviews and the approval for unpaid reviews is 87%. There is no positivity bias detected.
 
 
 
