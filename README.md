@@ -9,7 +9,6 @@ PySpark was used to perform the ETL process to extract the dataset, transform th
 ### Deliverable 1: Perform ETL on Amazon Product Reviews
 
 * **Amazon_Reviews_ETL.ipynb** :  
-![click here for : Amazon_Reviews_ETL.ipynb file](https://github.com/dhaval-28/Amazon_Vine_Analysis/blob/main/Amazon_Reviews_ETL.ipynb)
 
 * **The customers_table DataFrame** :  
 <p align="left">
@@ -59,7 +58,6 @@ PySpark was used to perform the ETL process to extract the dataset, transform th
 
 ### State if there is any positivity bias for reviews in the Vine program
 There are no paid reviews and the approval for unpaid reviews is 87%. There is no positivity bias detected.
-
-
+We could check lower ratings for bias such as 4-star.
 
 
